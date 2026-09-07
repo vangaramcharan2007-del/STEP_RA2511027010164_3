@@ -1,0 +1,16 @@
+# Java Bytecode
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+*.swp
+*~
+
+# OS artifacts
+Thumbs.db
+.DS_Store
