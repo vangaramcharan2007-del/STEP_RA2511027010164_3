@@ -14,7 +14,7 @@
 This repository strictly follows the official **STEP GitHub Repository Structure Guide**:
 - **`main` Branch**: Contains release-ready code, documentation, and consolidated submissions.
 - **`develop` Branch**: Integration branch for active weekly coursework.
-- **Feature Branches**: Individual weekly exercise development branches (`feature/week-1` through `feature/week-6`).
+- **Feature Branches**: Individual weekly exercise development branches (`feature/week-1` through `feature/week-10`).
 
 ---
 
@@ -28,22 +28,26 @@ This repository strictly follows the official **STEP GitHub Repository Structure
 | **Week 04** | Encapsulation & Custom Exception Handling (Banking System) | `BankAccount.java`, `SavingsAccount.java`, `CurrentAccount.java`, `BankManager.java`, `Exceptions.java` | ✅ Complete | `Week4BankingTest.java` (Passed 100%) |
 | **Week 05** | Java Collections Framework, Generics & Stream Analytics | `Student.java`, `StudentAnalyticsEngine.java` | ✅ Complete | `Week5AnalyticsTest.java` (Passed 100%) |
 | **Week 06** | Concurrency, Thread Pools & Order Processing | `Order.java`, `OrderProcessorPool.java` | ✅ Complete | `Week6ConcurrencyTest.java` (Passed 100%) |
+| **Week 07** | OOP Inheritance, Constructor Chaining & Dynamic Dispatch | `Vehicle.java`, `ElectricVehicle.java`, `CombustionVehicle.java`, `FleetManager.java` | ✅ Complete | `Week7InheritanceTest.java` (Passed 100%) |
+| **Week 08** | Abstraction, Multiple Interfaces & Loose Coupling | `CloudStorageService.java`, `Encryptable.java`, `Syncable.java`, `AWSStorageService.java`, `AzureStorageService.java`, `StorageClient.java` | ✅ Complete | `Week8AbstractionTest.java` (Passed 100%) |
+| **Week 09** | Object Class Contracts (`equals`, `hashCode`, `clone`) & Inner Classes | `TransactionRecord.java`, `AuditLogger.java` | ✅ Complete | `Week9ObjectClassTest.java` (Passed 100%) |
+| **Week 10** | Linear Data Structures (SLL, DLL, Stack, Circular Queue, Undo Engine) | `SinglyLinkedList.java`, `DoublyLinkedList.java`, `CustomStack.java`, `ParenthesesEvaluator.java`, `CircularQueue.java`, `TextEditorUndoEngine.java` | ✅ Complete | `Week10LinearDSATest.java` (Passed 100%) |
 
 ---
 
 ## 🛠️ Build & Compilation Instructions
 
-To compile and run any week's assignment:
+To compile and verify any week's assignment:
 
 ```bash
-# Navigate to the target week directory
-cd Week-01
+# Navigate to the target week directory (e.g. Week-10)
+cd Week-10
 
 # Compile all Java sources
 javac *.java
 
-# Execute test driver
-java Week1Test
+# Execute test driver with assertions enabled
+java -ea Week10LinearDSATest
 ```
 
 ---
